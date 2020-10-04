@@ -15,7 +15,7 @@ class ReminderRepository(context: Context) {
         return reminderDao.getAllReminders()
     }
 
-    fun insertReminders(reminder: Reminder) {
+    fun insertReminder(reminder: Reminder) {
         reminderDao.insertReminder(reminder)
     }
 
